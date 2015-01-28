@@ -1,0 +1,26 @@
+#sdk: "/Users/thani/.rvm/gems/ruby-1.9.3-p551@global/gems/rhodes-5.0.2"
+sdkversion: 5.0.0
+name: demo
+version: 1.0
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator7.0
+  provisionprofile:
+  codesignidentity: iPhone Developer
+  entitlements: ""
+  BundleIdentifier: com.rhomobile.demo
+  BundleURLScheme: demo
+wp8:
+  productid: '0685ce10-7c6f-0132-1a38-482a14269f01'
+android:
+  manifest_template: 'AndroidManifest.erb'
+  version: 2.3.3
+
+wm:
+  #sdk: "MC3000c50b (ARMV4I)"
+  #sdk: "Windows Mobile 6.5.3 Professional DTK (ARMV4I)"
+
+extensions: ["rhoconnect-client"]

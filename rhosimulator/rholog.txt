@@ -1,0 +1,509 @@
+I 01/16/2015 13:04:11:705 0b875000         AppCallbacks| Starting main routine...
+I 01/16/2015 13:04:11:705 0b875000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:11:705 7c35b300            RhodesApp| Trying to bind of 0 port...
+I 01/16/2015 13:04:11:705 7c35b300            RhodesApp| Got port to bind on: 49376
+I 01/16/2015 13:04:11:705 7c35b300            RhodesApp| Free listening port: 49376
+I 01/16/2015 13:04:13:139 7c35b300            RhodesApp| callAppActiveCallback
+I 01/16/2015 13:04:13:139 7c35b300         AppCallbacks| addCommand: APP-ACTIVATED
+I 01/16/2015 13:04:13:139 0b875000         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I 01/16/2015 13:04:13:139 0b875000         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/16/2015 13:04:13:139 0b875000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:13:180 7c35b300         AppCallbacks| addCommand: UI-CREATED
+I 01/16/2015 13:04:13:180 0b875000         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I 01/16/2015 13:04:13:180 7c35b300           MainWindow| navigate: 'about:blank'
+I 01/16/2015 13:04:13:180 0b875000         AppCallbacks| m_uistate: 0
+I 01/16/2015 13:04:13:180 1021a000            RhodesApp| Starting RhodesApp main routine...
+I 01/16/2015 13:04:13:180 0b875000         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/16/2015 13:04:13:180 0b875000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:13:180 7c35b300         QtMainWindow| WebView: loading...
+I 01/16/2015 13:04:13:181 7c35b300         QtMainWindow| WebView: URL changed to about:blank
+I 01/16/2015 13:04:13:181 7c35b300         QtMainWindow| Page load complete.
+I 01/16/2015 13:04:13:187 1021a000              RhoRuby| Init_RhoBlobs: /Users/thani/workspace/demo/rhosimulator/db/db-files
+I 01/16/2015 13:04:13:189 1021a000              RhoRuby| require_compiled: RhoSystemApi
+I 01/16/2015 13:04:13:190 1021a000              RhoRuby| require_compiled: RhoApplicationApi
+I 01/16/2015 13:04:13:191 1021a000              RhoRuby| require_compiled: RhoNetworkApi
+I 01/16/2015 13:04:13:191 1021a000              RhoRuby| require_compiled: RhoDatabaseApi
+I 01/16/2015 13:04:13:193 1021a000              RhoRuby| require_compiled: RhoLogApi
+I 01/16/2015 13:04:13:194 1021a000              RhoRuby| require_compiled: RhoWebViewApi
+I 01/16/2015 13:04:13:194 1021a000              RhoRuby| require_compiled: RhoNativeToolbarApi
+I 01/16/2015 13:04:13:194 1021a000              RhoRuby| require_compiled: RhoNativeTabbarApi
+I 01/16/2015 13:04:13:195 1021a000              RhoRuby| require_compiled: RhoNotificationApi
+I 01/16/2015 13:04:13:195 1021a000              RhoRuby| require_compiled: RhoNativeMenubarApi
+I 01/16/2015 13:04:13:196 1021a000              RhoRuby| require_compiled: RhoConnectClient
+I 01/16/2015 13:04:13:196 1021a000 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I 01/16/2015 13:04:13:197 1021a000              RhoRuby| require_compiled: digest
+I 01/16/2015 13:04:13:198 1021a000              RhoRuby| require_compiled: digest.so
+I 01/16/2015 13:04:13:202 1021a000              RhoRuby| require_compiled: rhoframework
+I 01/16/2015 13:04:13:203 1021a000              RhoRuby| require_compiled: rational
+I 01/16/2015 13:04:13:203 1021a000              RhoRuby| require_compiled: json
+I 01/16/2015 13:04:13:203 1021a000              RhoRuby| require_compiled: json/common
+I 01/16/2015 13:04:13:204 1021a000              RhoRuby| require_compiled: json/version
+I 01/16/2015 13:04:13:204 1021a000              RhoRuby| require_compiled: json/pure
+I 01/16/2015 13:04:13:205 1021a000              RhoRuby| require_compiled: json/pure/generator
+I 01/16/2015 13:04:13:207 1021a000              RhoRuby| require_compiled: rho/rhoapplication
+I 01/16/2015 13:04:13:208 1021a000              RhoRuby| require_compiled: rholang/localization_simplified
+I 01/16/2015 13:04:13:209 1021a000              RhoRuby| require_compiled: rho/rhomsg
+I 01/16/2015 13:04:13:209 1021a000              RhoRuby| require_compiled: rho/rhotabbar
+I 01/16/2015 13:04:13:209 1021a000              RhoRuby| require_compiled: rho/rhotoolbar
+I 01/16/2015 13:04:13:210 1021a000                  APP| Current locale: ; Country code: 
+I 01/16/2015 13:04:13:210 1021a000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/lang_
+I 01/16/2015 13:04:13:210 1021a000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/lang_en
+I 01/16/2015 13:04:13:210 1021a000                  APP| Locilized file: /Users/thani/workspace/demo/app/lang/lang_
+I 01/16/2015 13:04:13:210 1021a000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_
+I 01/16/2015 13:04:13:210 1021a000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_en
+I 01/16/2015 13:04:13:211 1021a000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_
+I 01/16/2015 13:04:13:211 1021a000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_en
+I 01/16/2015 13:04:13:211 1021a000              RhoRuby| require_compiled: indifferent_access
+I 01/16/2015 13:04:13:211 1021a000              RhoRuby| require_compiled: rho/rhosupport
+I 01/16/2015 13:04:13:213 1021a000              RhoRuby| require_compiled: rho/rhocontroller
+I 01/16/2015 13:04:13:214 1021a000              RhoRuby| require_compiled: rho/render
+I 01/16/2015 13:04:13:216 1021a000              RhoRuby| require_compiled: rho/rho
+I 01/16/2015 13:04:13:221 1021a000              RhoRuby| require_compiled: rho/rhoerror
+I 01/16/2015 13:04:13:222 1021a000              RhoRuby| require_compiled: rhodes
+I 01/16/2015 13:04:13:222 1021a000                  APP| Looking for RhoConnectClient
+I 01/16/2015 13:04:13:222 1021a000                  APP| RhoConnectClient found. do nothing
+E 01/16/2015 13:04:13:222 1021a000              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 01/16/2015 13:04:13:222 1021a000              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 01/16/2015 13:04:13:223 1021a000              RhoRuby| require_compiled: rho
+I 01/16/2015 13:04:13:223 1021a000                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I 01/16/2015 13:04:13:223 1021a000                  APP| RHOSTUDIO_REMOTE_HOST=
+I 01/16/2015 13:04:13:223 1021a000                  APP| RHOSTUDIO_REMOTE_PATH=
+I 01/16/2015 13:04:13:223 1021a000              RhoRuby| require_compiled: debugger
+I 01/16/2015 13:04:13:225 1021a000              RhoRuby| require_compiled: uri
+I 01/16/2015 13:04:13:225 1021a000              RhoRuby| require_compiled: uri/common
+I 01/16/2015 13:04:13:229 1021a000              RhoRuby| require_compiled: uri/generic
+I 01/16/2015 13:04:13:233 1021a000              RhoRuby| require_compiled: uri/ftp
+I 01/16/2015 13:04:13:233 1021a000              RhoRuby| require_compiled: uri/http
+I 01/16/2015 13:04:13:233 1021a000              RhoRuby| require_compiled: uri/https
+I 01/16/2015 13:04:13:234 1021a000              RhoRuby| require_compiled: uri/ldap
+I 01/16/2015 13:04:13:234 1021a000              RhoRuby| require_compiled: uri/ldaps
+I 01/16/2015 13:04:13:234 1021a000              RhoRuby| require_compiled: uri/mailto
+I 01/16/2015 13:04:13:235 1021a000              RhoRuby| require_compiled: timeout
+I 01/16/2015 13:04:13:236 1021a000                  APP| [Debugger] Opening connection
+I 01/16/2015 13:04:13:236 1021a000                  APP| [Debugger] host=127.0.0.1
+I 01/16/2015 13:04:13:236 1021a000                  APP| [Debugger] port=9000
+I 01/16/2015 13:04:13:236 1021a000                  APP| [Debugger] path=/Users/thani/workspace/demo/app/
+I 01/16/2015 13:04:13:236 1021a000                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+I 01/16/2015 13:04:13:236 1021a000                  APP| RHO loaded
+I 01/16/2015 13:04:13:236 1021a000                  APP| Calling RHO.initialize , use_new_orm: 0
+I 01/16/2015 13:04:13:236 1021a000                  APP| MZV_DEBUG: we are in use_new_orm false false
+I 01/16/2015 13:04:13:236 1021a000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbapp.sqlite
+I 01/16/2015 13:04:13:237 1021a000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbuser.sqlite
+I 01/16/2015 13:04:13:237 1021a000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdblocal.sqlite
+I 01/16/2015 13:04:13:237 1021a000              RhoRuby| require_compiled: rhom
+I 01/16/2015 13:04:13:237 1021a000              RhoRuby| require_compiled: rhom/rhom
+I 01/16/2015 13:04:13:238 1021a000              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 01/16/2015 13:04:13:244 1021a000              RhoRuby| require_compiled: rhom/rhom_object
+I 01/16/2015 13:04:13:245 1021a000              RhoRuby| require_compiled: rhom/rhom_model
+I 01/16/2015 13:04:13:245 1021a000              RhoRuby| require_compiled: rhom/rhom_source
+I 01/16/2015 13:04:13:246 1021a000              RhoRuby| require_compiled: rhoappmanifest
+I 01/16/2015 13:04:13:246 1021a000              RhoRuby| require_compiled: find
+I 01/16/2015 13:04:13:247 1021a000                  APP| model file: Product/product
+I 01/16/2015 13:04:13:247 1021a000          GeoLocation| Creating singleton instance.
+I 01/16/2015 13:04:13:247 1021a000            RhodesApp| Starting sync engine...
+I 01/16/2015 13:04:13:247 1021a000                 Sync| sync_poll_interval: 0
+I 01/16/2015 13:04:13:247 1021a000                 Sync| syncserver: 
+I 01/16/2015 13:04:13:247 1021a000                 Sync| bulksync_state: 0
+I 01/16/2015 13:04:13:247 1021a000            RhodesApp| RhoRubyInitApp...
+I 01/16/2015 13:04:13:247 1021a000                  APP| init_app
+I 01/16/2015 13:04:13:247 11981000                 Sync| Starting main routine...
+I 01/16/2015 13:04:13:247 1021a000              RhoRuby| require_compiled: application
+I 01/16/2015 13:04:13:247 1021a000                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I 01/16/2015 13:04:13:248 1021a000           HttpServer| Start HTTP server
+I 01/16/2015 13:04:13:248 1021a000           HttpServer| Listen for connections on port 49376
+I 01/16/2015 13:04:13:248 1021a000         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 01/16/2015 13:04:13:248 0b875000         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I 01/16/2015 13:04:13:248 0b875000         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 13:04:13:248 0b875000           SystemImpl| rho_sys_report_app_started() has no implementation in RhoSimulator.
+I 01/16/2015 13:04:13:248 0b875000         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 13:04:13:248 11981000                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:13:248 1021a000           HttpServer| Process URI: '/system/uicreated'
+I 01/16/2015 13:04:13:249 1021a000                  APP| on_ui_created.navigate to start url: '/app'
+I 01/16/2015 13:04:13:249 0b875000         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 13:04:13:249 1021a000           HttpServer| Process URI: '/system/activateapp'
+I 01/16/2015 13:04:13:249 1021a000                  APP| AppEvent Activated
+I 01/16/2015 13:04:13:249 0b875000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:13:380 7c35b300         QtMainWindow| WebView: loading...
+I 01/16/2015 13:04:13:428 1021a000           HttpServer| Process URI: '/app'
+I 01/16/2015 13:04:13:457 1021a000           HttpServer| Process URI: '/app/index.erb'
+I 01/16/2015 13:04:13:458 1021a000                  APP| RHO serve_index: /app/index.erb
+I 01/16/2015 13:04:13:458 1021a000 RHO Rho::RhoController| inst_render_index
+I 01/16/2015 13:04:13:458 1021a000              RhoRuby| require_compiled: erb
+I 01/16/2015 13:04:13:460 1021a000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/index.erb
+I 01/16/2015 13:04:13:461 1021a000 RHO Rho::RhoController| index layout
+I 01/16/2015 13:04:13:461 1021a000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/layout.erb
+I 01/16/2015 13:04:13:462 1021a000           HttpServer| GC Start.
+I 01/16/2015 13:04:13:464 1021a000           HttpServer| GC End.
+I 01/16/2015 13:04:13:479 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 01/16/2015 13:04:13:479 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 01/16/2015 13:04:13:479 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 01/16/2015 13:04:13:479 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 01/16/2015 13:04:13:479 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 01/16/2015 13:04:13:483 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49376/app/index.erb
+I 01/16/2015 13:04:13:486 1021a000           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I 01/16/2015 13:04:13:487 1021a000           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I 01/16/2015 13:04:13:487 1021a000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.css'
+I 01/16/2015 13:04:13:487 1021a000           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 01/16/2015 13:04:13:489 1021a000           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 01/16/2015 13:04:13:489 1021a000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.js'
+I 01/16/2015 13:04:13:490 1021a000           HttpServer| Process URI: '/public/css/re_webkit.css'
+I 01/16/2015 13:04:13:510 7c35b300           JavaScript| Console message at http://127.0.0.1:49376/public/api/rhoapi-modules.js:3987
+I 01/16/2015 13:04:13:510 7c35b300           JavaScript| Replacing Old Rho.ORM with new one!!!
+I 01/16/2015 13:04:13:527 7c35b300           JavaScript| Console message at http://127.0.0.1:49376/app/index.erb:46
+I 01/16/2015 13:04:13:527 7c35b300           JavaScript| Consider using 'dppx' units instead of 'dpi', as in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen. In media query expression: only screen and (-webkit-min-device-pixel-ratio: 1.3), not all, only screen and (min-resolution: 200dpi)
+I 01/16/2015 13:04:13:594 1021a000           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 01/16/2015 13:04:13:634 1021a000           HttpServer| Process URI: '/favicon.ico'
+E 01/16/2015 13:04:13:634 1021a000           HttpServer| The file /favicon.ico was not found
+I 01/16/2015 13:04:13:638 7c35b300         QtMainWindow| Page load complete.
+I 01/16/2015 13:04:20:349 7c35b300            RhodesApp| callAppActiveCallback
+I 01/16/2015 13:04:20:349 7c35b300         AppCallbacks| addCommand: APP-DEACTIVATED
+I 01/16/2015 13:04:20:349 0b875000         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I 01/16/2015 13:04:20:349 0b875000         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 13:04:20:349 0b875000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 13:04:20:349 1021a000           HttpServer| Process URI: '/system/deactivateapp'
+I 01/16/2015 13:04:20:349 1021a000                  APP| AppEvent Deactivated
+I 01/16/2015 13:04:20:352 1021a000           HttpServer| Process URI: '/system/uidestroyed'
+I 01/16/2015 13:04:20:352 1021a000                  APP| AppEvent UIDestroyed
+I 01/16/2015 13:04:20:353 0b875000         AppCallbacks| Thread shutdown
+I 01/16/2015 13:04:20:353 7c35b300           HttpServer| Stopping server...
+I 01/16/2015 13:04:20:353 1021a000            RhodesApp| RhodesApp thread shutdown
+I 01/16/2015 13:04:20:353 1021a000          GeoLocation| Destroying singleton instance.
+I 01/16/2015 13:04:20:353 1021a000                 Sync| Stopping Sync thread
+I 01/16/2015 13:04:20:353 11981000                 Sync| Thread shutdown
+I 01/19/2015 14:03:29:312 7ddc2300            RhodesApp| New start params: -approot=/Users/thani/workspace/demo -rhodespath=/Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2 
+I 01/19/2015 14:03:29:325 7ddc2300                 Main| Rhodes started
+I 01/19/2015 14:03:29:325 7ddc2300            RhodesApp| Trying to get free listening port.
+I 01/19/2015 14:03:29:325 0bb31000         AppCallbacks| Starting main routine...
+I 01/19/2015 14:03:29:325 7ddc2300            RhodesApp| Trying to bind of 0 port...
+I 01/19/2015 14:03:29:325 0bb31000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/19/2015 14:03:29:325 7ddc2300            RhodesApp| Got port to bind on: 49929
+I 01/19/2015 14:03:29:326 7ddc2300            RhodesApp| Free listening port: 49929
+I 01/19/2015 14:03:30:922 7ddc2300            RhodesApp| callAppActiveCallback
+I 01/19/2015 14:03:30:922 7ddc2300         AppCallbacks| addCommand: APP-ACTIVATED
+I 01/19/2015 14:03:30:922 0bb31000         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I 01/19/2015 14:03:30:922 0bb31000         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/19/2015 14:03:30:922 0bb31000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/19/2015 14:03:30:972 7ddc2300         AppCallbacks| addCommand: UI-CREATED
+I 01/19/2015 14:03:30:972 0bb31000         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I 01/19/2015 14:03:30:972 7ddc2300           MainWindow| navigate: 'about:blank'
+I 01/19/2015 14:03:30:972 0ffd5000            RhodesApp| Starting RhodesApp main routine...
+I 01/19/2015 14:03:30:972 0bb31000         AppCallbacks| m_uistate: 0
+I 01/19/2015 14:03:30:972 0bb31000         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 01/19/2015 14:03:30:972 0bb31000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/19/2015 14:03:30:972 7ddc2300         QtMainWindow| WebView: loading...
+I 01/19/2015 14:03:30:972 7ddc2300         QtMainWindow| WebView: URL changed to about:blank
+I 01/19/2015 14:03:30:973 7ddc2300         QtMainWindow| Page load complete.
+I 01/19/2015 14:03:30:992 0ffd5000              RhoRuby| Init_RhoBlobs: /Users/thani/workspace/demo/rhosimulator/db/db-files
+I 01/19/2015 14:03:31:004 0ffd5000              RhoRuby| require_compiled: RhoSystemApi
+I 01/19/2015 14:03:31:020 0ffd5000              RhoRuby| require_compiled: RhoApplicationApi
+I 01/19/2015 14:03:31:022 0ffd5000              RhoRuby| require_compiled: RhoNetworkApi
+I 01/19/2015 14:03:31:023 0ffd5000              RhoRuby| require_compiled: RhoDatabaseApi
+I 01/19/2015 14:03:31:026 0ffd5000              RhoRuby| require_compiled: RhoLogApi
+I 01/19/2015 14:03:31:027 0ffd5000              RhoRuby| require_compiled: RhoWebViewApi
+I 01/19/2015 14:03:31:027 0ffd5000              RhoRuby| require_compiled: RhoNativeToolbarApi
+I 01/19/2015 14:03:31:028 0ffd5000              RhoRuby| require_compiled: RhoNativeTabbarApi
+I 01/19/2015 14:03:31:028 0ffd5000              RhoRuby| require_compiled: RhoNotificationApi
+I 01/19/2015 14:03:31:029 0ffd5000              RhoRuby| require_compiled: RhoNativeMenubarApi
+I 01/19/2015 14:03:31:030 0ffd5000              RhoRuby| require_compiled: RhoConnectClient
+I 01/19/2015 14:03:31:049 0ffd5000 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I 01/19/2015 14:03:31:091 0ffd5000              RhoRuby| require_compiled: digest
+I 01/19/2015 14:03:31:127 0ffd5000              RhoRuby| require_compiled: digest.so
+I 01/19/2015 14:03:31:144 0ffd5000              RhoRuby| require_compiled: rhoframework
+I 01/19/2015 14:03:31:153 0ffd5000              RhoRuby| require_compiled: rational
+I 01/19/2015 14:03:31:159 0ffd5000              RhoRuby| require_compiled: json
+I 01/19/2015 14:03:31:166 0ffd5000              RhoRuby| require_compiled: json/common
+I 01/19/2015 14:03:31:167 0ffd5000              RhoRuby| require_compiled: json/version
+I 01/19/2015 14:03:31:168 0ffd5000              RhoRuby| require_compiled: json/pure
+I 01/19/2015 14:03:31:168 0ffd5000              RhoRuby| require_compiled: json/pure/generator
+I 01/19/2015 14:03:31:171 0ffd5000              RhoRuby| require_compiled: rho/rhoapplication
+I 01/19/2015 14:03:31:185 0ffd5000              RhoRuby| require_compiled: rholang/localization_simplified
+I 01/19/2015 14:03:31:186 0ffd5000              RhoRuby| require_compiled: rho/rhomsg
+I 01/19/2015 14:03:31:187 0ffd5000              RhoRuby| require_compiled: rho/rhotabbar
+I 01/19/2015 14:03:31:187 0ffd5000              RhoRuby| require_compiled: rho/rhotoolbar
+I 01/19/2015 14:03:31:188 0ffd5000                  APP| Current locale: ; Country code: 
+I 01/19/2015 14:03:31:188 0ffd5000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/lang_
+I 01/19/2015 14:03:31:188 0ffd5000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/lang_en
+I 01/19/2015 14:03:31:189 0ffd5000                  APP| Locilized file: /Users/thani/workspace/demo/app/lang/lang_
+I 01/19/2015 14:03:31:189 0ffd5000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_
+I 01/19/2015 14:03:31:189 0ffd5000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_en
+I 01/19/2015 14:03:31:189 0ffd5000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_
+I 01/19/2015 14:03:31:189 0ffd5000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_en
+I 01/19/2015 14:03:31:190 0ffd5000              RhoRuby| require_compiled: indifferent_access
+I 01/19/2015 14:03:31:190 0ffd5000              RhoRuby| require_compiled: rho/rhosupport
+I 01/19/2015 14:03:31:192 0ffd5000              RhoRuby| require_compiled: rho/rhocontroller
+I 01/19/2015 14:03:31:193 0ffd5000              RhoRuby| require_compiled: rho/render
+I 01/19/2015 14:03:31:195 0ffd5000              RhoRuby| require_compiled: rho/rho
+I 01/19/2015 14:03:31:200 0ffd5000              RhoRuby| require_compiled: rho/rhoerror
+I 01/19/2015 14:03:31:201 0ffd5000              RhoRuby| require_compiled: rhodes
+I 01/19/2015 14:03:31:202 0ffd5000                  APP| Looking for RhoConnectClient
+I 01/19/2015 14:03:31:202 0ffd5000                  APP| RhoConnectClient found. do nothing
+E 01/19/2015 14:03:31:215 0ffd5000              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 01/19/2015 14:03:31:215 0ffd5000              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 01/19/2015 14:03:31:216 0ffd5000              RhoRuby| require_compiled: rho
+I 01/19/2015 14:03:31:216 0ffd5000                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I 01/19/2015 14:03:31:216 0ffd5000                  APP| RHOSTUDIO_REMOTE_HOST=
+I 01/19/2015 14:03:31:216 0ffd5000                  APP| RHOSTUDIO_REMOTE_PATH=
+I 01/19/2015 14:03:31:217 0ffd5000              RhoRuby| require_compiled: debugger
+I 01/19/2015 14:03:31:228 0ffd5000              RhoRuby| require_compiled: uri
+I 01/19/2015 14:03:31:254 0ffd5000              RhoRuby| require_compiled: uri/common
+I 01/19/2015 14:03:31:275 0ffd5000              RhoRuby| require_compiled: uri/generic
+I 01/19/2015 14:03:31:295 0ffd5000              RhoRuby| require_compiled: uri/ftp
+I 01/19/2015 14:03:31:296 0ffd5000              RhoRuby| require_compiled: uri/http
+I 01/19/2015 14:03:31:296 0ffd5000              RhoRuby| require_compiled: uri/https
+I 01/19/2015 14:03:31:297 0ffd5000              RhoRuby| require_compiled: uri/ldap
+I 01/19/2015 14:03:31:298 0ffd5000              RhoRuby| require_compiled: uri/ldaps
+I 01/19/2015 14:03:31:314 0ffd5000              RhoRuby| require_compiled: uri/mailto
+I 01/19/2015 14:03:31:315 0ffd5000              RhoRuby| require_compiled: timeout
+I 01/19/2015 14:03:31:316 0ffd5000                  APP| [Debugger] Opening connection
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| [Debugger] host=127.0.0.1
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| [Debugger] port=9000
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| [Debugger] path=/Users/thani/workspace/demo/app/
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| RHO loaded
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| Calling RHO.initialize , use_new_orm: 0
+I 01/19/2015 14:03:31:317 0ffd5000                  APP| MZV_DEBUG: we are in use_new_orm false false
+I 01/19/2015 14:03:31:317 0ffd5000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbapp.sqlite
+I 01/19/2015 14:03:31:327 0ffd5000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbuser.sqlite
+I 01/19/2015 14:03:31:339 0ffd5000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdblocal.sqlite
+I 01/19/2015 14:03:31:349 0ffd5000              RhoRuby| require_compiled: rhom
+I 01/19/2015 14:03:31:366 0ffd5000              RhoRuby| require_compiled: rhom/rhom
+I 01/19/2015 14:03:31:367 0ffd5000              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 01/19/2015 14:03:31:375 0ffd5000              RhoRuby| require_compiled: rhom/rhom_object
+I 01/19/2015 14:03:31:376 0ffd5000              RhoRuby| require_compiled: rhom/rhom_model
+I 01/19/2015 14:03:31:377 0ffd5000              RhoRuby| require_compiled: rhom/rhom_source
+I 01/19/2015 14:03:31:377 0ffd5000              RhoRuby| require_compiled: rhoappmanifest
+I 01/19/2015 14:03:31:378 0ffd5000              RhoRuby| require_compiled: find
+I 01/19/2015 14:03:31:469 0ffd5000                  APP| model file: Product/product
+I 01/19/2015 14:03:31:469 0ffd5000          GeoLocation| Creating singleton instance.
+I 01/19/2015 14:03:31:469 0ffd5000            RhodesApp| Starting sync engine...
+I 01/19/2015 14:03:31:470 0ffd5000                 Sync| sync_poll_interval: 0
+I 01/19/2015 14:03:31:470 0ffd5000                 Sync| syncserver: 
+I 01/19/2015 14:03:31:470 0ffd5000                 Sync| bulksync_state: 0
+I 01/19/2015 14:03:31:470 0ffd5000            RhodesApp| RhoRubyInitApp...
+I 01/19/2015 14:03:31:470 0ffd5000                  APP| init_app
+I 01/19/2015 14:03:31:470 12591000                 Sync| Starting main routine...
+I 01/19/2015 14:03:31:487 0ffd5000              RhoRuby| require_compiled: application
+I 01/19/2015 14:03:31:522 0ffd5000                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I 01/19/2015 14:03:31:522 0ffd5000           HttpServer| Start HTTP server
+I 01/19/2015 14:03:31:522 0ffd5000           HttpServer| Listen for connections on port 49929
+I 01/19/2015 14:03:31:522 0ffd5000         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 01/19/2015 14:03:31:523 0bb31000         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I 01/19/2015 14:03:31:523 0bb31000         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/19/2015 14:03:31:523 0bb31000           SystemImpl| rho_sys_report_app_started() has no implementation in RhoSimulator.
+I 01/19/2015 14:03:31:523 0bb31000         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/19/2015 14:03:31:535 0ffd5000           HttpServer| Process URI: '/system/uicreated'
+I 01/19/2015 14:03:31:535 0ffd5000                  APP| on_ui_created.navigate to start url: '/app'
+I 01/19/2015 14:03:31:535 0bb31000         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/19/2015 14:03:31:535 7ddc2300         QtMainWindow| WebView: loading...
+I 01/19/2015 14:03:31:535 0ffd5000           HttpServer| Process URI: '/system/activateapp'
+I 01/19/2015 14:03:31:536 0ffd5000                  APP| AppEvent Activated
+I 01/19/2015 14:03:31:536 0bb31000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/19/2015 14:03:31:542 12591000                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 01/19/2015 14:03:31:594 0ffd5000           HttpServer| Process URI: '/app'
+I 01/19/2015 14:03:31:596 0ffd5000           HttpServer| Process URI: '/app/index.erb'
+I 01/19/2015 14:03:31:596 0ffd5000                  APP| RHO serve_index: /app/index.erb
+I 01/19/2015 14:03:31:596 0ffd5000 RHO Rho::RhoController| inst_render_index
+I 01/19/2015 14:03:31:596 0ffd5000              RhoRuby| require_compiled: erb
+I 01/19/2015 14:03:31:616 0ffd5000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/index.erb
+I 01/19/2015 14:03:31:632 0ffd5000 RHO Rho::RhoController| index layout
+I 01/19/2015 14:03:31:632 0ffd5000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/layout.erb
+I 01/19/2015 14:03:31:648 7ddc2300           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 01/19/2015 14:03:31:648 0ffd5000           HttpServer| GC Start.
+I 01/19/2015 14:03:31:649 7ddc2300           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 01/19/2015 14:03:31:649 7ddc2300           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 01/19/2015 14:03:31:649 7ddc2300           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 01/19/2015 14:03:31:649 7ddc2300           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 01/19/2015 14:03:31:651 0ffd5000           HttpServer| GC End.
+I 01/19/2015 14:03:31:655 7ddc2300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49929/app/index.erb
+I 01/19/2015 14:03:31:672 0ffd5000           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I 01/19/2015 14:03:31:673 0ffd5000           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I 01/19/2015 14:03:31:710 0ffd5000           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 01/19/2015 14:03:31:721 0ffd5000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.css'
+I 01/19/2015 14:03:31:748 0ffd5000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.js'
+I 01/19/2015 14:03:31:771 0ffd5000           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 01/19/2015 14:03:31:772 0ffd5000           HttpServer| Process URI: '/public/css/android.css'
+I 01/19/2015 14:03:31:799 7ddc2300           JavaScript| Console message at http://127.0.0.1:49929/public/api/rhoapi-modules.js:3987
+I 01/19/2015 14:03:31:799 7ddc2300           JavaScript| Replacing Old Rho.ORM with new one!!!
+I 01/19/2015 14:03:31:816 7ddc2300           JavaScript| Console message at http://127.0.0.1:49929/app/index.erb:46
+I 01/19/2015 14:03:31:816 7ddc2300           JavaScript| Consider using 'dppx' units instead of 'dpi', as in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen. In media query expression: only screen and (-webkit-min-device-pixel-ratio: 1.3), not all, only screen and (min-resolution: 200dpi)
+I 01/19/2015 14:03:31:902 0ffd5000           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 01/19/2015 14:03:31:922 0ffd5000           HttpServer| Process URI: '/favicon.ico'
+E 01/19/2015 14:03:31:923 0ffd5000           HttpServer| The file /favicon.ico was not found
+I 01/19/2015 14:03:31:923 7ddc2300         QtMainWindow| Page load complete.
+I 01/20/2015 01:35:24:209 7ddc2300            RhodesApp| callAppActiveCallback
+I 01/20/2015 01:35:24:223 7ddc2300         AppCallbacks| addCommand: APP-DEACTIVATED
+I 01/20/2015 01:35:24:224 0bb31000         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I 01/20/2015 01:35:24:224 0bb31000         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/20/2015 01:35:24:224 0bb31000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/20/2015 01:35:24:224 0ffd5000           HttpServer| Process URI: '/system/deactivateapp'
+I 01/20/2015 01:35:24:224 0ffd5000                  APP| AppEvent Deactivated
+I 01/20/2015 01:35:24:256 0ffd5000           HttpServer| Process URI: '/system/uidestroyed'
+I 01/20/2015 01:35:24:256 0ffd5000                  APP| AppEvent UIDestroyed
+I 01/20/2015 01:35:24:256 0bb31000         AppCallbacks| Thread shutdown
+I 01/20/2015 01:35:24:257 7ddc2300           HttpServer| Stopping server...
+I 01/20/2015 01:35:24:257 0ffd5000            RhodesApp| RhodesApp thread shutdown
+I 01/20/2015 01:35:24:257 0ffd5000          GeoLocation| Destroying singleton instance.
+I 01/20/2015 01:35:24:257 0ffd5000                 Sync| Stopping Sync thread
+I 01/20/2015 01:35:24:257 12591000                 Sync| Thread shutdown
+ 0f727000                  APP| Locilized file: /Users/thani/workspace/demo/app/lang/lang_
+I 01/16/2015 12:54:27:161 0f727000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_
+I 01/16/2015 12:54:27:162 0f727000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhoerror_en
+I 01/16/2015 12:54:27:162 0f727000                  APP| Locilized file: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_
+I 01/16/2015 12:54:27:162 0f727000              RhoRuby| require_compiled: /Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2/lib/framework/rholang/rhomsg_en
+I 01/16/2015 12:54:27:162 0f727000              RhoRuby| require_compiled: indifferent_access
+I 01/16/2015 12:54:27:163 0f727000              RhoRuby| require_compiled: rho/rhosupport
+I 01/16/2015 12:54:27:164 0f727000              RhoRuby| require_compiled: rho/rhocontroller
+I 01/16/2015 12:54:27:166 0f727000              RhoRuby| require_compiled: rho/render
+I 01/16/2015 12:54:27:168 0f727000              RhoRuby| require_compiled: rho/rho
+I 01/16/2015 12:54:27:173 0f727000              RhoRuby| require_compiled: rho/rhoerror
+I 01/16/2015 12:54:27:174 0f727000              RhoRuby| require_compiled: rhodes
+I 01/16/2015 12:54:27:174 0f727000                  APP| Looking for RhoConnectClient
+I 01/16/2015 12:54:27:174 0f727000                  APP| RhoConnectClient found. do nothing
+E 01/16/2015 12:54:27:174 0f727000              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 01/16/2015 12:54:27:174 0f727000              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 01/16/2015 12:54:27:175 0f727000              RhoRuby| require_compiled: rho
+I 01/16/2015 12:54:27:175 0f727000                  APP| RHOSTUDIO_REMOTE_DEBUG=false
+I 01/16/2015 12:54:27:175 0f727000                  APP| RHOSTUDIO_REMOTE_HOST=
+I 01/16/2015 12:54:27:175 0f727000                  APP| RHOSTUDIO_REMOTE_PATH=
+I 01/16/2015 12:54:27:175 0f727000              RhoRuby| require_compiled: debugger
+I 01/16/2015 12:54:27:177 0f727000              RhoRuby| require_compiled: uri
+I 01/16/2015 12:54:27:177 0f727000              RhoRuby| require_compiled: uri/common
+I 01/16/2015 12:54:27:181 0f727000              RhoRuby| require_compiled: uri/generic
+I 01/16/2015 12:54:27:185 0f727000              RhoRuby| require_compiled: uri/ftp
+I 01/16/2015 12:54:27:185 0f727000              RhoRuby| require_compiled: uri/http
+I 01/16/2015 12:54:27:185 0f727000              RhoRuby| require_compiled: uri/https
+I 01/16/2015 12:54:27:185 0f727000              RhoRuby| require_compiled: uri/ldap
+I 01/16/2015 12:54:27:186 0f727000              RhoRuby| require_compiled: uri/ldaps
+I 01/16/2015 12:54:27:186 0f727000              RhoRuby| require_compiled: uri/mailto
+I 01/16/2015 12:54:27:187 0f727000              RhoRuby| require_compiled: timeout
+I 01/16/2015 12:54:27:187 0f727000                  APP| [Debugger] Opening connection
+I 01/16/2015 12:54:27:187 0f727000                  APP| [Debugger] host=127.0.0.1
+I 01/16/2015 12:54:27:187 0f727000                  APP| [Debugger] port=9000
+I 01/16/2015 12:54:27:187 0f727000                  APP| [Debugger] path=/Users/thani/workspace/demo/app/
+I 01/16/2015 12:54:27:188 0f727000                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: Connection refused - connect(2)>
+I 01/16/2015 12:54:27:188 0f727000                  APP| RHO loaded
+I 01/16/2015 12:54:27:188 0f727000                  APP| Calling RHO.initialize , use_new_orm: 0
+I 01/16/2015 12:54:27:188 0f727000                  APP| MZV_DEBUG: we are in use_new_orm false false
+I 01/16/2015 12:54:27:188 0f727000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbapp.sqlite
+I 01/16/2015 12:54:27:188 0f727000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdbuser.sqlite
+I 01/16/2015 12:54:27:188 0f727000                   DB| Open DB: /Users/thani/workspace/demo/rhosimulator/db/syncdblocal.sqlite
+I 01/16/2015 12:54:27:189 0f727000              RhoRuby| require_compiled: rhom
+I 01/16/2015 12:54:27:189 0f727000              RhoRuby| require_compiled: rhom/rhom
+I 01/16/2015 12:54:27:189 0f727000              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 01/16/2015 12:54:27:196 0f727000              RhoRuby| require_compiled: rhom/rhom_object
+I 01/16/2015 12:54:27:197 0f727000              RhoRuby| require_compiled: rhom/rhom_model
+I 01/16/2015 12:54:27:197 0f727000              RhoRuby| require_compiled: rhom/rhom_source
+I 01/16/2015 12:54:27:198 0f727000              RhoRuby| require_compiled: rhoappmanifest
+I 01/16/2015 12:54:27:198 0f727000              RhoRuby| require_compiled: find
+I 01/16/2015 12:54:27:199 0f727000                  APP| model file: Product/product
+I 01/16/2015 12:54:27:199 0f727000          GeoLocation| Creating singleton instance.
+I 01/16/2015 12:54:27:199 0f727000            RhodesApp| Starting sync engine...
+I 01/16/2015 12:54:27:199 0f727000                 Sync| sync_poll_interval: 0
+I 01/16/2015 12:54:27:199 0f727000                 Sync| syncserver: 
+I 01/16/2015 12:54:27:199 0f727000                 Sync| bulksync_state: 0
+I 01/16/2015 12:54:27:199 0f727000            RhodesApp| RhoRubyInitApp...
+I 01/16/2015 12:54:27:199 0f727000                  APP| init_app
+I 01/16/2015 12:54:27:199 10a04000                 Sync| Starting main routine...
+I 01/16/2015 12:54:27:199 0f727000              RhoRuby| require_compiled: application
+I 01/16/2015 12:54:27:200 0f727000                 Sync| Set notification. Source ID: -1;Url :; Params: 
+I 01/16/2015 12:54:27:200 0f727000           HttpServer| Start HTTP server
+I 01/16/2015 12:54:27:200 0f727000           HttpServer| Listen for connections on port 49353
+I 01/16/2015 12:54:27:200 0f727000         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 01/16/2015 12:54:27:200 0b0bb000         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I 01/16/2015 12:54:27:200 0b0bb000         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 12:54:27:200 0b0bb000           SystemImpl| rho_sys_report_app_started() has no implementation in RhoSimulator.
+I 01/16/2015 12:54:27:200 0b0bb000         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 12:54:27:200 10a04000                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 12:54:27:201 0f727000           HttpServer| Process URI: '/system/uicreated'
+I 01/16/2015 12:54:27:201 0f727000                  APP| on_ui_created.navigate to start url: '/app'
+I 01/16/2015 12:54:27:201 0b0bb000         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 12:54:27:201 0f727000           HttpServer| Process URI: '/system/activateapp'
+I 01/16/2015 12:54:27:201 0f727000                  APP| AppEvent Activated
+I 01/16/2015 12:54:27:201 0b0bb000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 12:54:27:323 7c35b300         QtMainWindow| WebView: loading...
+I 01/16/2015 12:54:27:363 0f727000           HttpServer| Process URI: '/app'
+I 01/16/2015 12:54:27:392 0f727000           HttpServer| Process URI: '/app/index.erb'
+I 01/16/2015 12:54:27:393 0f727000                  APP| RHO serve_index: /app/index.erb
+I 01/16/2015 12:54:27:393 0f727000 RHO Rho::RhoController| inst_render_index
+I 01/16/2015 12:54:27:393 0f727000              RhoRuby| require_compiled: erb
+I 01/16/2015 12:54:27:395 0f727000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/index.erb
+I 01/16/2015 12:54:27:396 0f727000 RHO Rho::RhoController| index layout
+I 01/16/2015 12:54:27:396 0f727000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/layout.erb
+I 01/16/2015 12:54:27:397 0f727000           HttpServer| GC Start.
+I 01/16/2015 12:54:27:398 0f727000           HttpServer| GC End.
+I 01/16/2015 12:54:27:431 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 01/16/2015 12:54:27:431 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 01/16/2015 12:54:27:431 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 01/16/2015 12:54:27:431 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 01/16/2015 12:54:27:431 7c35b300           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 01/16/2015 12:54:27:434 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/index.erb
+I 01/16/2015 12:54:27:436 0f727000           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I 01/16/2015 12:54:27:437 0f727000           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I 01/16/2015 12:54:27:437 0f727000           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 01/16/2015 12:54:27:437 0f727000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.css'
+I 01/16/2015 12:54:27:438 0f727000           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.3.1.min.js'
+I 01/16/2015 12:54:27:438 0f727000           HttpServer| Process URI: '/public/css/android.css'
+I 01/16/2015 12:54:27:449 0f727000           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 01/16/2015 12:54:27:460 7c35b300           JavaScript| Console message at http://127.0.0.1:49353/public/api/rhoapi-modules.js:3987
+I 01/16/2015 12:54:27:460 7c35b300           JavaScript| Replacing Old Rho.ORM with new one!!!
+I 01/16/2015 12:54:27:476 7c35b300           JavaScript| Console message at http://127.0.0.1:49353/app/index.erb:46
+I 01/16/2015 12:54:27:476 7c35b300           JavaScript| Consider using 'dppx' units instead of 'dpi', as in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen. In media query expression: only screen and (-webkit-min-device-pixel-ratio: 1.3), not all, only screen and (min-resolution: 200dpi)
+I 01/16/2015 12:54:27:579 0f727000           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 01/16/2015 12:54:27:594 0f727000           HttpServer| Process URI: '/favicon.ico'
+E 01/16/2015 12:54:27:594 0f727000           HttpServer| The file /favicon.ico was not found
+I 01/16/2015 12:54:27:595 7c35b300         QtMainWindow| Page load complete.
+I 01/16/2015 12:54:30:602 0f727000           HttpServer| Process URI: '/app/Product/new'
+I 01/16/2015 12:54:30:602 0f727000                  APP| RHO serve: /app/Product/new
+I 01/16/2015 12:54:30:602 0f727000              RhoRuby| require_compiled: Product/product_controller
+I 01/16/2015 12:54:30:602 0f727000              RhoRuby| require_compiled: helpers/browser_helper
+I 01/16/2015 12:54:30:603 0f727000                  APP| const_missing: Product
+I 01/16/2015 12:54:30:603 0f727000                  APP| load_model: Product
+I 01/16/2015 12:54:30:603 0f727000              RhoRuby| require_compiled: Product/product
+I 01/16/2015 12:54:30:603 0f727000                  APP| model name: Product
+I 01/16/2015 12:54:30:603 0f727000                  APP| model class found
+I 01/16/2015 12:54:30:603 0f727000                  APP| Product : {"property"=>{}}
+I 01/16/2015 12:54:30:603 0f727000                  APP| init_db_sources
+I 01/16/2015 12:54:30:604 0f727000                  APP| start_id: 40004
+I 01/16/2015 12:54:30:604 0f727000                  APP| Migrate schema sources: {}
+I 01/16/2015 12:54:30:604 0f727000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/Product/new.erb
+I 01/16/2015 12:54:30:605 0f727000           HttpServer| GC Start.
+I 01/16/2015 12:54:30:607 0f727000           HttpServer| GC End.
+I 01/16/2015 12:54:30:626 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/index.erb#/app/Product/new
+I 01/16/2015 12:54:30:626 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/index.erb#/app/Product/new
+I 01/16/2015 12:54:30:627 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/Product/new
+I 01/16/2015 12:54:37:379 0f727000           HttpServer| Process URI: '/app/Product'
+I 01/16/2015 12:54:37:379 0f727000                  APP| RHO serve: /app/Product
+I 01/16/2015 12:54:37:379 0f727000              RhoRuby| require_compiled: Product/product_controller
+I 01/16/2015 12:54:37:379 0f727000              RhoRuby| require_compiled: helpers/browser_helper
+I 01/16/2015 12:54:37:380 0f727000                  APP| Params: {"id"=>"190644870604465.06", "product"=>{"name"=>"sdfsdf", "brand"=>"sfsfs", "price"=>"sdfsdf", "quantity"=>"", "sku"=>""}}
+I 01/16/2015 12:54:37:383 0f727000           HttpServer| GC Start.
+I 01/16/2015 12:54:37:384 0f727000           HttpServer| GC End.
+I 01/16/2015 12:54:37:385 0f727000           HttpServer| Process URI: '/app/Product'
+I 01/16/2015 12:54:37:385 0f727000                  APP| RHO serve: /app/Product
+I 01/16/2015 12:54:37:385 0f727000              RhoRuby| require_compiled: Product/product_controller
+I 01/16/2015 12:54:37:385 0f727000              RhoRuby| require_compiled: helpers/browser_helper
+I 01/16/2015 12:54:37:386 0f727000                  APP| eval_compiled_file : /Users/thani/workspace/demo/app/Product/index.erb
+I 01/16/2015 12:54:37:387 0f727000           HttpServer| GC Start.
+I 01/16/2015 12:54:37:388 0f727000           HttpServer| GC End.
+I 01/16/2015 12:54:37:399 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/Product/new#/app/Product
+I 01/16/2015 12:54:37:399 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/Product/new#/app/Product
+I 01/16/2015 12:54:37:399 7c35b300         QtMainWindow| WebView: URL changed to http://127.0.0.1:49353/app/Product
+I 01/16/2015 12:59:18:187 7c35b300            RhodesApp| callAppActiveCallback
+I 01/16/2015 12:59:18:187 7c35b300         AppCallbacks| addCommand: APP-DEACTIVATED
+I 01/16/2015 12:59:18:187 0b0bb000         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I 01/16/2015 12:59:18:187 0b0bb000         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I 01/16/2015 12:59:18:187 0b0bb000         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 01/16/2015 12:59:18:188 0f727000           HttpServer| Process URI: '/system/deactivateapp'
+I 01/16/2015 12:59:18:188 0f727000                  APP| AppEvent Deactivated
+I 01/16/2015 12:59:18:192 0f727000           HttpServer| Process URI: '/system/uidestroyed'
+I 01/16/2015 12:59:18:192 0f727000                  APP| AppEvent UIDestroyed
+I 01/16/2015 12:59:18:193 0b0bb000         AppCallbacks| Thread shutdown
+I 01/16/2015 12:59:18:193 7c35b300           HttpServer| Stopping server...
+I 01/16/2015 12:59:18:193 0f727000            RhodesApp| RhodesApp thread shutdown
+I 01/16/2015 12:59:18:193 0f727000          GeoLocation| Destroying singleton instance.
+I 01/16/2015 12:59:18:193 0f727000                 Sync| Stopping Sync thread
+I 01/16/2015 12:59:18:193 10a04000                 Sync| Thread shutdown
+I 01/16/2015 13:04:11:705 7c35b300            RhodesApp| New start params: -approot=/Users/thani/workspace/demo -rhodespath=/Users/thani/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/gems/1.9.1/gems/rhodes-5.0.2 
+I 01/16/2015 13:04:11:705 7c35b300                 Main| Rhodes started
+I 01/16/2015 13:04:11:705 7c35b300            RhodesApp| Trying to get free listening port.
+rocess URI: '/app/index.erb'
